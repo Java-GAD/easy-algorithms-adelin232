@@ -12,6 +12,6 @@ public class CalculateSum {
             return -1;
         }
 
-        return IntStream.rangeClosed(1, n).sum();
+        return IntStream.rangeClosed(0, n).sum();
     }
 }
